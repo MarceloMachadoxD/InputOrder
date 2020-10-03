@@ -2,38 +2,7 @@ Exemplo em JAVA de entrada de pedidos utilizando conceitos de Orientação a Obj
 
 SDK utilizada JAVA14
 
-Exemplo de input e output dos dados:
-
-
-///////INPUT////////////
-
-
-----Enter Client data----
-Name: Link
-Email: link@hyrule.hy
-Birth Date (dd/mm/yyyy): 27/09/1987
-----Enter Order data----
-Order Status: PROCESSING
-How many itens in this order? 3
-Enter #1 Iem Data
-Product name: TV
-Product price: 5000
-Product quantity: 1
-Enter #2 Iem Data
-Product name: Switch
-Product price: 3000
-Product quantity: 1
-Enter #3 Iem Data
-Product name: Jogos
-Product price: 3
-Product quantity: 300
-
-
-
-
-/////////////// OUTPUT ////////
-
-
+Exemplo output dos dados:
 
 ////Order Summary/////
 Order moment: 03/10/2020 10:54:38
