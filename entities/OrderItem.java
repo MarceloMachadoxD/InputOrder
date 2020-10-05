@@ -53,6 +53,7 @@ public class OrderItem {
 	public String toString() {
 	StringBuilder sb = new StringBuilder();
 	sb.append("\n" + product);
+	sb.append("\n Price: " + price);
 	sb.append("Quantity: ");
 	sb.append(quantity);
 	sb.append("\n Subtotal: ");

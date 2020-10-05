@@ -16,8 +16,6 @@ public class Program {
 
 	public static void main(String[] args) throws ParseException {
 
-		///pendente fazer o To String de OrderItem e CLiente
-
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -49,7 +47,7 @@ public class Program {
 		for (int i = 1; i <= qty; i++) {
 
 
-			System.out.println("Enter #" + i + " Iem Data");
+			System.out.println("\n Enter #" + i + " Iem Data");
 			System.out.print("Product name: ");
 			String pname = sc.next();
 
@@ -63,6 +61,8 @@ public class Program {
 
 			OrderItem orderitem = new OrderItem(pqty, price, product);
 			
+//			System.out.println(orderitem.getProduct().getName());
+			
 			order.addItem(orderitem);
 			
 			
@@ -70,9 +70,7 @@ public class Program {
 		}	
 
 		System.out.println("//// \n Order Summary/////");
-		System.out.println(order);
-		
-		
+		System.out.println(order);		
 		sc.close();
 
 	}

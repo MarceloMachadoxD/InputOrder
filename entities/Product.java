@@ -42,8 +42,8 @@ public class Product {
 		
 		sb.append("\n Product Name: ");
 		sb.append(name);
-		sb.append("\n Price un: ");
-		sb.append(price + "\n");
+//		sb.append("\n Price un: ");
+//		sb.append(price + "\n");
 		
 		return sb.toString();
 		
